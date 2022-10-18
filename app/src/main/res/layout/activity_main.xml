@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   
+   <LinearLayout
+     style="@style/Main_LL">
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/recycler_view"
+          style="@style/recycler"
+          tools:listitem="@layout/custom_recycler"/>
+   </LinearLayout>
+
+
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
+       style="@style/fab"
+       android:src="@drawable/ic_baseline_camera_alt_24"
+       android:id="@+id/button"/>
+
+
+</FrameLayout>
+

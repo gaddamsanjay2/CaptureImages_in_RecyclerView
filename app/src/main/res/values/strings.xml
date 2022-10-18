@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CaptureImagesI_in_RecyclerView</string>
+    <string name="load">load</string>
+    <string name="dailog_TV">Are you sure you want to save image</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">SAVE</string>
+</resources>
